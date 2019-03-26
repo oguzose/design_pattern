@@ -3,6 +3,7 @@ package creational.builder.after;
 import java.awt.*;
 
 public class BedroomBuilder {
+
     private Dimension dimensions;
     private int ceilingHeight;
     private int floorNumber;
