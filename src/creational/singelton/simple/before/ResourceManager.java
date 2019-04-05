@@ -1,7 +1,6 @@
 
 package creational.singelton.simple.before;
 
-import creational.singelton.simple.after.PrintSpooler;
 
 public class ResourceManager {
 
@@ -10,9 +9,13 @@ public class ResourceManager {
      */
     public static void main(String[] args) {
 
-        // PrintSpooler spooler = new PrintSpooler(); cannot use new keyword
+        PrintSpooler spooler = new PrintSpooler();
+        System.out.println(spooler);
 
-        PrintSpooler spooler = PrintSpooler.getInstance();
+        PrintSpooler spooler2 = new PrintSpooler();
+        System.out.println(spooler2);
+
+        //PrintSpooler spooler = PrintSpooler.getInstance();
 
                           
     }

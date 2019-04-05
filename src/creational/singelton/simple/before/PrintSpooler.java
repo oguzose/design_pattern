@@ -6,7 +6,7 @@ public class PrintSpooler {
 
     private static boolean initialized = false;
 
-    private PrintSpooler(){}
+    public PrintSpooler(){}
 
     private void init() {
         // Code to initialize our print spooler goes here
